@@ -9,7 +9,6 @@ public class SelectionSorting {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");
         int size = sc.nextInt();
-
         int[] arr = new int[size];
 
         System.out.println("Enter the elements of the array:");
@@ -31,5 +30,3 @@ public class SelectionSorting {
         sc.close();
     }
 }
-
-
